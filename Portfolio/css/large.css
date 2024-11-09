@@ -1,0 +1,54 @@
+@media only screen and (min-width: 70rem) {
+
+    /** INDEX **/
+
+    .index-body {
+        margin: 3.75rem 11.81rem;
+    }
+
+    .index-title {
+        margin-right: 40rem;
+        margin-bottom: -0.1rem;
+        font-size: 96px;
+    }
+
+    .intro-paragraph {
+        margin-right: 50rem;
+        margin-top: 1.5rem;
+    }
+
+    button {
+        margin-top: 1rem;
+    }
+
+    .past-projects {
+        margin-top: 5.5rem;
+    }
+
+    .link-gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .case-image {
+        flex: 50%;
+        padding: 0.5rem;
+    }
+    
+    img {
+        border-radius: 0.625rem;
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+
+    /** FOOTER **/
+
+    .footer {
+        background-color: gray;
+        height: 100px;
+        margin: -0.5rem;
+    }
+
+} /* end media query*/

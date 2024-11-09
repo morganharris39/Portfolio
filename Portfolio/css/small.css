@@ -1,0 +1,43 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.index-body {
+    margin: 3.75rem 3.81rem;
+}
+
+.index-title {
+    margin-right: 1rem;
+    margin-bottom: -0.1rem;
+    font-size: 48px;
+}
+
+.intro-paragraph {
+    margin-top: 2rem;
+}
+
+button {
+    margin-top: 0.5rem;
+}
+
+.past-projects {
+    margin-top: 2.5rem;
+}
+
+.link-gallery {
+    text-align: center;
+}
+
+.case-image {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+img {
+    border-radius: 0.625rem;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
