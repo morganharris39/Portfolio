@@ -9,51 +9,49 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-    <title>A Galactic Project Begins!</title>
+    <title>Smart Home, Smarter Design</title>
 </head>
 <body>
-    <h1>A Galactic Project Begins!</h1>
-        <h2>Charting the Course</h2>
-            <p>I was tasked with creating a website that had 7 different Star Wars movie posters for a midterm project. 
-                However, I needed to create this website primarily using all the JavaScript knowledge that I had acquired throughout half of the semester. 
-                I only had about a week to complete this website, and I had to include two different ways to view the website (in a list view and a grid view), 
-                pull all the data from a JSON file, and make it look nice using CSS knowledge from a previous class. So, I had my work cut out for me.
-                The first step I had to take was creating a list of all the skills I needed to include in this project. 
-                This helped to mainstream the process and it kept me from guessing on everything I needed to include. 
-                To make this list, I used a combination of the requirements provided to me as well as the guiding videos present in the assignment page. 
-                These all did a few things that helped me a ton in creating this website:
-                Know what elements to include, how to include them, what the website should look likem, how it should function.
-                After I planned my project, it was time to start coding it. Thanks to all the knowledge and tools I had gained from previous projects leading up to this one, 
-                most of the process was pretty streamlined. That doesn’t mean I didn’t run into any problems, though.
-                </p>
-            <h2>Taking Off</h2>
-                <p>One of the first problems that I ran into was that the poster names were not matching up to the poster images. 
-                    However, after some frustrating troubleshooting, I realized what the problem was.
-                    So, to get the images for these posters, I needed to pull them from a website. 
-                    The link for each image was almost identical, except for a single number at the end that order the images. 
-                    The JSON data had the same sort of thing; its episode_id also orders the movies. 
-                    So, all I needed to do was insert the number from the episode_id into the link, and it would display the correct movie. 
-                    Seems simple, right? Well, it didn’t seem so, at least not at first.
-                    See, after much headache, I finally realized that the problem I was having wasn’t necessarily my code. 
-                    It was how the JSON file was set up. The link I was provided puts the movie posters in chronological order. 
-                    However, the JSON data puts the movie in release order. And since I can’t modify the website, I modified the JSON file. 
-                    All it took was one minor little tweak to the JSON file to reflect the links, which was as simple as changing the numbers in the episode_id. 
-                    The next part I needed to complete was the styling. Although this is normally the fun part for me, I ran into a few issues here as well. 
-                    First of all, the button I had to toggle between the grid and list view was displaying as different sizes upon clicking it. 
-                    The list view was also just generally not acting as expected.
-                    To solve the inconsistent button sizes, I needed to change where the image for it was located. 
-                    So, I moved it from its initial division tag to a section tag.
-                    Solving the problem with the list view was quite simple too. I initially had the list view set to display: 
-                    flex, which was giving me results that I was not expecting. After some quick searching, I learned about display: grid. 
-                    This solved pretty much all the problems I had with it - it was much easier to use in this case too.
-                    </p>
-                <h2>Learning Lessons</h2>
-                    <p>Creating this website was quite the journey, and I was one that I learned a lot from. 
-                        First of all, planning my project ahead of time made the process go by much faster that it would have if i hadn’t. 
-                        I knew exactly what needed to be done, which I believe led to a better end result. 
-                        The main lesson I gleamed from this though is that not all answers to problems are straightforward. 
-                        Even though they all turned out to be simple solutions, they weren’t my first, or second, or third, thought. 
-                        But at the end of the day, I’m very happy with how this project turned out, and all of the things I learned here I can use for future projects, 
-                        which will make them even better too. </p>
+    <h1>Smart Home, Smarter Design</h1>
+        <h2>Laying Out the Project</h2>
+            <p>As a part of a UX project for a class at UVU, I redesigned the Feit Electric mobile app. 
+                This app is a smart home app that allows users to control various connected devices such as lights, air conditioners, and heaters. 
+                Through the app, users can set timers for lights, adjust color temperature, select from presets, and create personalized scenes. 
+                However, the original app had several usability issues, including repetitive functions and unclear features that made it difficult to navigate. 
+                I only needed to redesign it for mobile since this app does not have a corresponding website. 
+                Since this was my first time working exclusively on a mobile app, it was a unique learning experience that required me to 
+                apply both basic design principles and mobile-specific guidelines. The project involved quite a bit of planning, more than I was used to, 
+                and while I collaborated with classmates on occasion, the majority of the work was done independently. 
+                The project timeline was limited to just a few weeks for the entire redesign.</p>
+            <h2>Exploring the Layout</h2>
+                <p>The first step in the design process was creating mood boards. 
+                    Since I was unfamiliar with smart home apps, I did some research by downloading and reviewing similar apps from competitors. 
+                    Although it was difficult to explore some of these apps because I had no account and no devices to connect to the app, 
+                    I was still able to identify some common design patterns. They all had a bottom navigation bar with icons for a home page, 
+                    an automation page, a devices page, and a settings page. 
+                    All these findings helped me outline the necessary elements that I needed to start sketching out my Feit Electric app redesign.</p>
+                <p>In the sketching phase, I worked with a few of my classmates to brainstorm ideas for improving the user interface. 
+                    The biggest issue with the app was the unintuitive design for selecting light temperatures, colors, and presets. 
+                    Together we were able to come up with some more intuitive alternatives, which included a color wheel for choosing the colors and sliders for adjusting saturation, 
+                    brightness, and temperature. I did some sketches on my own as well, where I explored some different layout for some of the other pages for the app. 
+                    Once I was satisfied with these sketches, I moved on to the wireframes.</p>
+                <h2>On to the Fun Stuff</h2>
+                    <p>For the wireframes, I redesigned eight important pages, including the login page, home page, automation page, scenes page, device settings page, and profile page. 
+                        I had to make sure that all the technical specifications were met, such as maintaining button sizes of 44 pixels or larger, 
+                        while also following the assignment requirements such as reaching the number of required pages. 
+                        My focus was on creating a minimal, user-friendly design where the functions were easy to understand, 
+                        and the pages flowed easily together – something the original app struggled with. After some minor revisions along the way, 
+                        I finalized the wireframes and was able to move on to the surface comps.</p>
+                    <p>The surface comps phase involved exploring color and typography. 
+                        After experiments with different color schemes, I ultimately chose a bright electric blue to give elements of the app a vibrant pop, 
+                        in contrast to the current muted sky blue. I opted for a simple and clean font as well to avoid distractions and ensure readability. 
+                        I also organized the various elements into cards, using a lighter blue background to create a subtle contrast with the white cards. 
+                        Each device was paired with a corresponding icon, such as a couch for the living room light and a fridge for the kitchen light, 
+                        to make it easier for users to visually identify their devices at a glance.</p>
+                <h2>Wrapping Up</h2>
+                    <p>Overall, I am very pleased with the final result of the project! 
+                        Redesigning a mobile app rather than a website was a new and challenging experience that involved a lot of learning and practice. 
+                        Ensuring that the transition between all the pages and incorporating all the necessary functions into the app proved to be more difficult than I had anticipated, 
+                        but it was a very valuable learning opportunity. I thoroughly enjoyed the process and gained a deeper understanding of mobile app design!</p>
 </body>
 </html>
