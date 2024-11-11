@@ -42,5 +42,56 @@
         height: auto;
         width: auto\9;
     }
+
+    .case-study {
+        margin: 0 5rem;
+    }
+
+    /** CASE STUDY IMAGES **/
+
+    .case-image-left {
+        width: 45%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+
+    .case-image-right {
+        width: 45%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .case-image-left-small {
+        width: 20%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+
+    .case-image-right-small {
+        width: 30%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .case-image-left-tiny {
+        width: 20%;
+        float: left;
+        margin: 0 1.5rem 1rem 0;
+    }
+
+    .case-image-right-tiny {
+        width: 10%;
+        float: right;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .case-image-big {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+
     
 } /* end media query */
