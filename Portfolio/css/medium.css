@@ -33,7 +33,25 @@
 
     .case-image {
         flex: 50%;
-        padding: 0.5rem;
+        padding: 1rem;
+        position: relative;
+        display: inline-block;
+    }
+
+    .case-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 60%; 
+        left: -5%; 
+        transform: translate(10%, 10%); 
+        padding: 10px 20px; 
+        font-size: 20px; 
+        text-align: center;
     }
     
     img {
@@ -44,7 +62,7 @@
     }
 
     .case-study {
-        margin: 0 5rem;
+        margin: 0 5rem 10rem 5rem;
     }
 
     /** CASE STUDY IMAGES **/
@@ -91,6 +109,14 @@
         margin-right: auto;
         width: 90%;
         margin-bottom: 1.5rem;
+    }
+
+    .footer {
+        background-color: gray;
+        height: 100px;
+        margin: -0.5rem;
+        text-align: center;
+        padding-top: 1.5rem;
     }
 
     
